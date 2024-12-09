@@ -1,7 +1,3 @@
-const Directions: React.FC = () => {
-    return (
-        <div></div>
-    )
+export default function Directions() {
+  return <div />
 }
-
-export default Directions;

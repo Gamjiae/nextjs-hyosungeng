@@ -1,9 +1,3 @@
-const CycloReducer: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default CycloReducer;
-  
+export default function CycloReducer() {
+  return <div />
+}

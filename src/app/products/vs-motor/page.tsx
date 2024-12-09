@@ -1,9 +1,3 @@
-const VSMotor: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default VSMotor
-  
+export default function VSMotor() {
+  return <div />
+}

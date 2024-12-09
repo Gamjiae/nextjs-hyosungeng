@@ -1,9 +1,3 @@
-const Notices: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default Notices;
-  
+export default function Notices() {
+  return <div />
+}

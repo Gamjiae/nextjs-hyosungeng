@@ -1,8 +1,3 @@
-const Company: React.FC = () => {
-  return (
-    <div>
-    </div>
-  );
+export default function Company() {
+  return <div />
 }
-
-export default Company;

@@ -1,9 +1,3 @@
-const HyosungMotor: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default HyosungMotor;
-  
+export default function HyosungMotor() {
+  return <div />
+}

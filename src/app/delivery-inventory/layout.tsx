@@ -1,9 +1,9 @@
-import Header from "@/components/Header";
+import Header from '@/components/Header'
 
 export default function DeliveryInventoryLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="ko">
@@ -12,5 +12,5 @@ export default function DeliveryInventoryLayout({
         <main>{children}</main>
       </body>
     </html>
-  );
+  )
 }

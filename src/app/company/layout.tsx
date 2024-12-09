@@ -1,16 +1,14 @@
-import Header from '@/components/Header';
+import Header from '@/components/Header'
 
-export default function CompanyLayout({ 
-    children,
+export default function CompanyLayout({
+  children,
 }: {
-    children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <div>
       <Header />
-      <div>
-        {children}
-      </div>
+      <div>{children}</div>
     </div>
-  );
-};
+  )
+}

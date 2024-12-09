@@ -1,7 +1,3 @@
-const Items: React.FC = () => {
-    return (
-        <div></div>
-    )
+export default function Items() {
+  return <div />
 }
-
-export default Items

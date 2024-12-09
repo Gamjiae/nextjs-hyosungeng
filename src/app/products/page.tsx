@@ -1,9 +1,3 @@
-const Products: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default Products;
-  
+export default function Products() {
+  return <div />
+}

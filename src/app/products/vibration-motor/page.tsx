@@ -1,9 +1,3 @@
-const VibrationMotor: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default VibrationMotor;
-  
+export default function VibrationMotor() {
+  return <div />
+}

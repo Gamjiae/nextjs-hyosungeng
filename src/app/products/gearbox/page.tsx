@@ -1,9 +1,3 @@
-const Gearbox: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default Gearbox;
-  
+export default function Gearbox() {
+  return <div />
+}

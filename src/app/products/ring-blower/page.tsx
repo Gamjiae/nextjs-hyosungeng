@@ -1,9 +1,3 @@
-const RingBlower: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default RingBlower;
-  
+export default function RingBlower() {
+  return <div />
+}

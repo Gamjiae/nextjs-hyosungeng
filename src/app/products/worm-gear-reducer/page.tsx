@@ -1,8 +1,3 @@
-const WormGearReducer: React.FC = () => {
-    return (
-      <div>
-      </div>
-    );
-  }
-  
-  export default WormGearReducer
+export default function WormGearReducer() {
+  return <div />
+}

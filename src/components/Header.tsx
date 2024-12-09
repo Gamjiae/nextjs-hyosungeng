@@ -1,16 +1,17 @@
+import NavLink from '@/components/NavLink'
+import Link from 'next/link'
+
 export default function Header() {
-    return (
-        <header className="bg-white py-4">
-          <div className="container mx-auto flex justify-between items-center">
-            <h1 className="text-xl font-bold">효성 ENG</h1>
-            <nav>
-              <ul className="flex space-x-4">
-                <li><a href="/" className="hover:underline">Home</a></li>
-                <li><a href="/about" className="hover:underline">About</a></li>
-                <li><a href="/contact" className="hover:underline">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-    );
+  return (
+    <header className="w-screen h-[100px] flex px-[100px] justify-evenly items-center bg-white text-black">
+      <Link href="/" className="text-xl">
+        효성 ENG
+      </Link>
+
+      <NavLink href="/products">제품소개</NavLink>
+      <NavLink href="/delivery-inventory">납품 및 재고현황</NavLink>
+      <NavLink href="/notices">공지사항</NavLink>
+      <NavLink href="/quotation-request">견적문의</NavLink>
+    </header>
+  )
 }
